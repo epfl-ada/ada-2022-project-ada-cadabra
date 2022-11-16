@@ -24,8 +24,8 @@ Third idea:
 
 ## Internal milestones up until project Milestone P3:
 Milestone 2
-•	Loïc: 
-•	Florian: 
-•	Kish:  
-•	Zeina: Investigate the second idea. Transform the review text files into readable dataframes. Create README.
+•	Loïc: <br>
+•	Florian: <br>
+•	Kish:  <br>
+•	Zeina: Investigate the second idea. Transform the review text files into readable dataframes. Create README. <br>
 
