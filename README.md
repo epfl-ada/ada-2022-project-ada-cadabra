@@ -10,7 +10,7 @@ What makes us like a beer the way we do? Is it the stimulation of our 5 senses t
 Throughout this project, we’ll try to bring as many answers as possible to these questions in a spatial-temporal fashion: we have data that spans almost two decades and covers many American states and countries. In other words, it would be interesting to see if these answers vary from an area to another and over the years.
 
 ## Methods:
-Dataset storage and processing
+Dataset storage and processing:
 The text files for the reviews from the two websites and the matched data are extremely heavy. Thus, in the preprocessing part, we store the processed data frames (df_ratings_BA and df_RB_reviews) for reviews into csv files in order to access them more readily for the rest of the tasks. We added columns for those review dataframes with the user location and the brewery location for each review (by linking with the users and breweries data).
 
 First idea: The influence of sensory cues on the perception of a beer
@@ -23,6 +23,7 @@ Third idea:
 
 
 ## Internal milestones up until project Milestone P3:
+
 Milestone 2
 •	Loïc: <br>
 •	Florian: <br>
