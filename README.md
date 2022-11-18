@@ -102,7 +102,7 @@ I then thougt of getting rid of hate comments. For that Iwould need to do sentim
 
 ### Milestone 2 
 •	Loïc: I investigated the fourth idea which I explore the reviews and ways to analyse them. I tried to separate experienced users by looking at the comments. I tried severals method to separate the comments: length of the comments, amount of comments per user, sentiment analysis.<br>
-•	Florian: <br>
+•	Florian: Data storage and investigating the third idea<br>
 •	Kish:  Investigate the first idea. Try to find non linear relationships and extract reviews containing the sesnory cues. <br>
 •	Zeina: Investigate the second idea. Transform the review text files into readable dataframes. Create README. <br>
 
