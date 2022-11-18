@@ -27,7 +27,7 @@ Since the final idea is to construct an interactive map (we plan to use the [fol
 Once this has been done, we can do some analysis to see which words used are most used per country to describe beer. To do so we’ll process the textual data using “Term Frequency — Inverse Data Frequency” (TF-IDF).
 
 
-### Third idea: Investigating political and cultural influence on beer reviews
+#### Third idea: Investigating political and cultural influence on beer reviews
 We are interested in factors that influence our relationship with the beer we drink. One factor that is very interesting to investigate on is politics.
 We want to find a way to find links between the ratings of beers and political climates. We looked into 5 different events:
 - Investigating how the trading war between China and the USA affected the ratings of US users on Chinese beers.
