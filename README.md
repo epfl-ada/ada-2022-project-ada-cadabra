@@ -103,3 +103,11 @@ The sentiment analysis allows us to get an idea about the standpoints of the use
 •	Kish:  Investigate the first idea. Try to find non linear relationships and extract reviews containing the sesnory cues. <br>
 •	Zeina: Investigate the second idea. Transform the review text files into readable dataframes. Create README. <br>
 
+### Proposed timeline
+Step 2: 25/11/22
+Step 3, 4: 29/11/22
+Step 5: 06/12/22
+Step 6, 7: 13/12/22
+
+
+
