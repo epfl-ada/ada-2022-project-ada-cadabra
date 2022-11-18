@@ -38,11 +38,10 @@ We want to find a way to find links between the ratings of beers and political c
 <details><summary>Detailed decsription here (click me)</summary>
 <p>
 
-#### Third Idea:
-We are interested in factors that influence our relationship with the beer we drink. One factor that is very interesting to investigate on is politics.
-We want to find a way to find links between the ratings of beers and political climates. <br>
+#### 
 The first idea we came up with was to investigate how the trading war between China and the USA affected the ratings of US users on Chinese beers.
 We prioritise this question for several reasons. <br>
+
 First: the trading war was a lot in the media, so many people were aware of the tensions. <br>
 Second: as we googled a few of the Chinese beer from the dataset, we discovered, that on the bottles of the beers we observed, there was always some writing in Chinese. This would facilitate infer, that consumers are aware that they are drinking Chinese beer.<br>
 Third: The trading war affected the lives of people. Through the increased taxes, some products got more expensive and other products could be less exported which led to a loss of workplaces. <br>
@@ -52,10 +51,10 @@ However, we did not give up, and we found a book describing the public US opinio
 The book is called "Winning American Hearts and Minds" by Xiuli Wang. <br>
 We planned to search for a correlation between the public opinion and the reviews given to Chinese beers.<br>
 We have seen that we have at least 188 Chinese breweries in the dataset. At least, because there were breweries from RatingBeer (RB) and BeerAdvocate (BA). They use different wordings, which makes it hard to detect redundant breweries from both datasets. Therefore, we used a conservative approach and considered only the breweries from the dataset with more Chinese breweries.<br>
-The 188 breweries produce a total of 1316 beers.
-We found a total number of around 3’700 US reviews on Chinese beers.
-We plotted it over the different years and for 75% of the years we have more than 350 reviews. We don’t know whether we will observe significant effects, but we can proceed with this question in milestone P3.
-Fourth question:
+The 188 breweries produce a total of 1316 beers. <br>
+We found a total number of around 3’700 US reviews on Chinese beers. <br>
+We plotted it over the different years and for 75% of the years we have more than 350 reviews. We don’t know whether we will observe significant effects, but we can proceed with this question in milestone P3.  <br>
+Fourth question: 
 As we still would like to investigate political events or climates, we thought about the Brexit. In June 2016 the British population decided in a referendum called “Brexit” that they want to leave the European union (EU). 
 This has made big waves in global politics and influenced the relationship of GB with other countries in various manners. It weakened the European collaboration and on the same hand affected the GB-US relationships, as the Britain were looking for new trading partners.
 In this part we want to investigate how the ratings of US users on British beer changed after the Brexit.
