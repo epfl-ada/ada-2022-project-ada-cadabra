@@ -94,6 +94,9 @@ The sentiment analysis allows us to get an idea about the standpoints of the use
 </p>
 </details>
 
+#### Fourth idea: Grouping users by categories
+Finding categories to group the users. Experienced users vs Unexperienced: I first tried to separate experencied users. I made the assumptions that they would write longer comments. But there is no clear demarcations in the length of the comments. I pursued with another assumptions that experienced users would have written more reviews. I found out that most of the ratings gave no textual reviews. The distribution follows a power law. <br>
+I then thougt of getting rid of hate comments. For that Iwould need to do sentiment analysis. I started simply by categorizing the comments into positive or negative sentiment. The sentiment analyser was found on huggingface.co (distilbert-base-uncased-distilled-squad). The goal is to tune the sentiment analyser for beer comments. So we could be more specific about the catgeories.
 
 ## Internal milestones up until project Milestone P3:
 
@@ -104,10 +107,16 @@ The sentiment analysis allows us to get an idea about the standpoints of the use
 •	Zeina: Investigate the second idea. Transform the review text files into readable dataframes. Create README. <br>
 
 ### Proposed timeline
-Step 2: 25/11/22
-Step 3, 4: 29/11/22
-Step 5: 06/12/22
-Step 6, 7: 13/12/22
+Step 1: 25/11/22 Finish preprocessing <br>
+Step 2: 02/12/22 Complete Second and Third part which are already well advanced<br>
+Step 3: 09/12/22 Textual data analysis (Sentiment analysis, TF-IDF) + Finish the sensory analyses <br>
+Step 4: 16/12/22 Start the interactive map<br>
+Step 5: 23/12/22 Finish the P3
 
+### Milestone 3
 
+Political: Flo <br>
+Location: Zeina <br>
+Text: Loïc <br>
+Sensory Values: Kish
 
