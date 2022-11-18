@@ -1,5 +1,7 @@
-# What defines your relationship with a beer?
-ADA-cadabra group
+# What defines your relationship with a beer?<br>
+***Please refer to Milestone_P2 notebook***
+
+ ADA-cadabra group
 
 ## Abstract:
 Beer is an interesting cultural product. When it comes to a beer, there is a lot to talk about and many senses involved in a beer tasting experience. Sensory Evaluation is a common method of evaluating beer; it is conducted by each beer taster and involves their sensory perception. There are four important main aspects of a beer that a person can evaluate: look, smell, taste and mouthfeel (palate). These affect one’s overall impression of a beer. The dataset consists of user reviews from beer reviewing websites that make use of sensory evaluation accompanied by a text review and some other data about the users, beers and breweries. The aim of this project is to uncover what defines one's relationship to a beer. To that end, we'll explore the different aspects of the data that could affect one's rating/review of a beer.
