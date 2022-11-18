@@ -40,18 +40,18 @@ We want to find a way to find links between the ratings of beers and political c
 
 #### Third Idea:
 We are interested in factors that influence our relationship with the beer we drink. One factor that is very interesting to investigate on is politics.
-We want to find a way to find links between the ratings of beers and political climates.
+We want to find a way to find links between the ratings of beers and political climates. <br>
 The first idea we came up with was to investigate how the trading war between China and the USA affected the ratings of US users on Chinese beers.
-We prioritise this question for several reasons.
-First: the trading war was a lot in the media, so many people were aware of the tensions.
-Second: as we googled a few of the Chinese beer from the dataset, we discovered, that on the bottles of the beers we observed, there was always some writing in Chinese. This would facilitate infer, that consumers are aware that they are drinking Chinese beer.
-Third: The trading war affected the lives of people. Through the increased taxes, some products got more expensive and other products could be less exported which led to a loss of workplaces.
-We first investigated the period for which we have datapoints in general.
-Unfortunately, the data ranges from 1996 to 2017. The trading war started under the presidency of Donald Trump, who was elected in 2016. So, the reviews will only insufficiently describe the time of the trading war.
-However, we did not give up, and we found a book describing the public US opinion towards China and how it evolved over time (including during the years from 1996 to 2017).
-The book is called "Winning American Hearts and Minds" by Xiuli Wang.
-We planned to search for a correlation between the public opinion and the reviews given to Chinese beers.
-We have seen that we have at least 188 Chinese breweries in the dataset. At least, because there were breweries from RatingBeer (RB) and BeerAdvocate (BA). They use different wordings, which makes it hard to detect redundant breweries from both datasets. Therefore, we used a conservative approach and considered only the breweries from the dataset with more Chinese breweries.
+We prioritise this question for several reasons. <br>
+First: the trading war was a lot in the media, so many people were aware of the tensions. <br>
+Second: as we googled a few of the Chinese beer from the dataset, we discovered, that on the bottles of the beers we observed, there was always some writing in Chinese. This would facilitate infer, that consumers are aware that they are drinking Chinese beer.<br>
+Third: The trading war affected the lives of people. Through the increased taxes, some products got more expensive and other products could be less exported which led to a loss of workplaces. <br>
+We first investigated the period for which we have datapoints in general. <br>
+Unfortunately, the data ranges from 1996 to 2017. The trading war started under the presidency of Donald Trump, who was elected in 2016. So, the reviews will only insufficiently describe the time of the trading war. <br>
+However, we did not give up, and we found a book describing the public US opinion towards China and how it evolved over time (including during the years from 1996 to 2017). <br>
+The book is called "Winning American Hearts and Minds" by Xiuli Wang. <br>
+We planned to search for a correlation between the public opinion and the reviews given to Chinese beers.<br>
+We have seen that we have at least 188 Chinese breweries in the dataset. At least, because there were breweries from RatingBeer (RB) and BeerAdvocate (BA). They use different wordings, which makes it hard to detect redundant breweries from both datasets. Therefore, we used a conservative approach and considered only the breweries from the dataset with more Chinese breweries.<br>
 The 188 breweries produce a total of 1316 beers.
 We found a total number of around 3’700 US reviews on Chinese beers.
 We plotted it over the different years and for 75% of the years we have more than 350 reviews. We don’t know whether we will observe significant effects, but we can proceed with this question in milestone P3.
