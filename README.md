@@ -14,7 +14,7 @@ Throughout this project, we’ll try to bring as many answers as possible to the
 The text files for the reviews from the two websites and the matched data are extremely heavy. Thus, in the preprocessing part, we store the processed data frames (df_ratings_BA and df_RB_reviews) for reviews into csv files in order to access them more readily for the rest of the tasks. We added columns for those review dataframes with the user location and the brewery location for each review (by linking with the users and breweries data).
 
 #### First idea: The influence of sensory cues on the perception of a beer
-In order to determine which kind of sensory cues influence most one’s rating of a beer, we fit linear regression models on the overall rating for each of the sensory cues.
+This idea aims to find the various relationships of the sensory attributes of the beer with its ratings. In order to determine which kind of sensory cues influence most one’s rating of a beer, we initially try to find the linear relationships. To do so, we fit a linear regression model on the overall rating for each of the sensory cues, namely, palate, aroma, taste, and appearance. We also find the Pearson's correlation coefficient to determine the strength of these linear relationships. Initial analysis showed that taste had the strongest linear impact on the rating of the beers (R value of 0.959) followed by Aroma (R value of 0.87). To further analyse these relationships, we aim to find non linear relationships of the sensory features with the ratings as well. Furthermore, using two key natural language processing techniques, i.e. word extraction and word embeddings, we aim to find the reviews that talk about these sensory features in greater details and put that into context of perception (ratings) of the beer. 
 
 #### Second idea: Is a good beer a good beer everywhere? 
 This idea stems from the fact that we have breweries and users coming from different locations. To investigate whether there is a bias towards consumption of local beers rather than just globally good beers, we first determine the beers that are globally perceived as the best. To do so we choose three criteria: we select beers that have been heavily reviewed by reviewers that have already written a lot of reviews and then select the top 20 beers from an overall rating perspective (averaged over the two rating websites). From there, we look at the number of reviewers that drink beers from their locations.
@@ -27,6 +27,6 @@ Third idea:
 ### Milestone 2 
 •	Loïc: <br>
 •	Florian: <br>
-•	Kish:  <br>
+•	Kish:  Investigate the first idea. Try to find non linear relationships and extract reviews containing the sesnory cues. <br>
 •	Zeina: Investigate the second idea. Transform the review text files into readable dataframes. Create README. <br>
 
