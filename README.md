@@ -40,8 +40,7 @@ We want to find a way to find links between the ratings of beers and political c
 
 #### 
 The first idea we came up with was to investigate how the trading war between China and the USA affected the ratings of US users on Chinese beers.
-We prioritise this question for several reasons. <br>
-
+We prioritise this question for several reasons. <p>
 First: the trading war was a lot in the media, so many people were aware of the tensions. <br>
 Second: as we googled a few of the Chinese beer from the dataset, we discovered, that on the bottles of the beers we observed, there was always some writing in Chinese. This would facilitate infer, that consumers are aware that they are drinking Chinese beer.<br>
 Third: The trading war affected the lives of people. Through the increased taxes, some products got more expensive and other products could be less exported which led to a loss of workplaces. <br>
