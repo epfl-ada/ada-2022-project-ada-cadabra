@@ -14,6 +14,7 @@ Throughout this project, we’ll try to bring as many answers as possible to the
 The text files for the reviews from the two websites and the matched data are extremely heavy. Thus, in the preprocessing part, we store the processed data frames (df_BA_reviews and df_RB_reviews) for reviews into csv files in order to access them more readily for the rest of the tasks. We enriched the review dataframes by adding columns for those review dataframes with the user location and the brewery location for each review (by linking with the other users and breweries data).
 We then explore the different ideas we want to implement in the notebook:
 
+
 #### First idea: The influence of sensory cues on the perception of a beer
 This idea aims to find the various relationships of the sensory attributes of the beer with its ratings. In order to determine which kind of sensory cues influence most one’s rating of a beer, we initially try to find the linear relationships. To do so, we fit a linear regression model on the overall rating for each of the sensory cues, namely, palate, aroma, taste, and appearance. We also find the Pearson's correlation coefficient to determine the strength of these linear relationships. Initial analysis showed that taste had the strongest linear impact on the rating of the beers (R value of 0.959) followed by Aroma (R value of 0.87). To further analyse these relationships, we aim to find non linear relationships of the sensory features with the ratings as well. Furthermore, using two key natural language processing techniques, i.e. word extraction and word embeddings, we aim to find the reviews that talk about these sensory features in greater details and put that into context of perception (ratings) of the beer. 
 
@@ -39,7 +40,7 @@ We want to find a way to find links between the ratings of beers and political c
 <p>
 
 #### 
-The first idea we came up with was to investigate how the trading war between China and the USA affected the ratings of US users on Chinese beers.
+a) The first idea we came up with was to investigate how the trading war between China and the USA affected the ratings of US users on Chinese beers.
 We prioritise this question for several reasons. <p>
 First: the trading war was a lot in the media, so many people were aware of the tensions. <br>
 Second: as we googled a few of the Chinese beer from the dataset, we discovered, that on the bottles of the beers we observed, there was always some writing in Chinese. This would facilitate infer, that consumers are aware that they are drinking Chinese beer.<br>
@@ -53,34 +54,39 @@ We have seen that we have at least 188 Chinese breweries in the dataset. At leas
 The 188 breweries produce a total of 1316 beers. <br>
 We found a total number of around 3’700 US reviews on Chinese beers. <br>
 We plotted it over the different years and for 75% of the years we have more than 350 reviews. We don’t know whether we will observe significant effects, but we can proceed with this question in milestone P3.  <br>
-Fourth question: 
-As we still would like to investigate political events or climates, we thought about the Brexit. In June 2016 the British population decided in a referendum called “Brexit” that they want to leave the European union (EU). 
-This has made big waves in global politics and influenced the relationship of GB with other countries in various manners. It weakened the European collaboration and on the same hand affected the GB-US relationships, as the Britain were looking for new trading partners.
-In this part we want to investigate how the ratings of US users on British beer changed after the Brexit.
-We get a total of 168’000 reviews of US users on British beer. To our disadvantage, only around 5’000 of these ratings were given after Brexit.
-We intend to investigate two things:
-First: The scores that were given before and after the Brexit and whether they evolved differently after Brexit.
-Second: Whether the number of reviews given per period of time changed. This is interesting because less reviews could indicate a reduce in consumption of British beer.
-As it would be interesting to get an idea of how the effect differs from one state to another, we also plotted the distributions of ratings over the different states. Especially for the ratings after Brexit we see that we have a few states with very little reviews.
-Half of the states have 80 or fewer ratings. Therefore, for this question we propose to group democratic voting and republican voting states. We need to be aware of the swing states and either integrate them into the group of the political party that won the election for the presidency election which took place in the same year as the Brexit, or we make a third group consisting of the swing states. 
-Fourth question:
-To compare political influence on the different states we need more data. To have more data we plotted the origins of the beers rated by US users.
-We observed that most of the US ratings were on US beers.
+
+  </p>
+  <p>
+b) As we still would like to investigate political events or climates, we thought about the Brexit. In June 2016 the British population decided in a referendum called “Brexit” that they want to leave the European union (EU). <br>
+This has made big waves in global politics and influenced the relationship of GB with other countries in various manners. It weakened the European collaboration and on the same hand affected the GB-US relationships, as the Britain were looking for new trading partners.<br>
+In this part we want to investigate how the ratings of US users on British beer changed after the Brexit.<br>
+We get a total of 168’000 reviews of US users on British beer. To our disadvantage, only around 5’000 of these ratings were given after Brexit.<br>
+We intend to investigate two things: <br>
+First: The scores that were given before and after the Brexit and whether they evolved differently after Brexit. <br>
+Second: Whether the number of reviews given per period of time changed. This is interesting because less reviews could indicate a reduce in consumption of British beer. <br>
+As it would be interesting to get an idea of how the effect differs from one state to another, we also plotted the distributions of ratings over the different states. Especially for the ratings after Brexit we see that we have a few states with very little reviews. <br>
+Half of the states have 80 or fewer ratings. Therefore, for this question we propose to group democratic voting and republican voting states. We need to be aware of the swing states and either integrate them into the group of the political party that won the election for the presidency election which took place in the same year as the Brexit, or we make a third group consisting of the swing states.  <br>
+    </p>
+     <p>
+c) To compare political influence on the different states we need more data. To have more data we plotted the origins of the beers rated by US users.
+We observed that most of the US ratings were on US beers. <br>
 So we switched strategy. Instead of asking questions about international relations, we try to grasp political energy inside the country.
-One type of event that could have an influence on reviews is the scandal.
-We stumbled over a scandal, where the US brewery Anheuser-Busch was accused of watering down their beer called Budweiser.
-The lawsuit that was discussed in the media and might have had an influence on the ratings on beers of Anheuser-Busch (AB).
-We have a nice base, as there are 74’000 ratings on AB beers of US users. 
-We investigated the distribution over the different states and could see that 25% of the states have more than 2000 ratings while we have also 25% with less than 400 ratings.
-We will try to investigate how the watering scandal (and other, there are a few AB scandals) in milestone P3.
-Should there not be sufficient data in some states, we will consider grouping them with similar states.
-Fifth question:
-As a fifth question we want to find out how the economic situation affects our beer experience. We choose the financial crisis of 2008 as the economic event of question.
-We filter the reviews for texts mentioning defined, price related words. The list with the words is found in the notebook and will be completed during the milestone P3.
-We will see how the relative frequency of those words vary over time and whether we can see a trend before and after the crisis of 2008.
+One type of event that could have an influence on reviews is the scandal.<br>
+We stumbled over a scandal, where the US brewery Anheuser-Busch was accused of watering down their beer called Budweiser.<br>
+The lawsuit that was discussed in the media and might have had an influence on the ratings on beers of Anheuser-Busch (AB).<br>
+We have a nice base, as there are 74’000 ratings on AB beers of US users. <br>
+We investigated the distribution over the different states and could see that 25% of the states have more than 2000 ratings while we have also 25% with less than 400 ratings.<br>
+We will try to investigate how the watering scandal (and other, there are a few AB scandals) in milestone P3.<br>
+Should there not be sufficient data in some states, we will consider grouping them with similar states.<br>
+       </p>
+<p>
+d) As a fifth question we want to find out how the economic situation affects our beer experience. We choose the financial crisis of 2008 as the economic event of question.<br>
+We filter the reviews for texts mentioning defined, price related words. The list with the words is found in the notebook and will be completed during the milestone P3.<br>
+We will see how the relative frequency of those words vary over time and whether we can see a trend before and after the crisis of 2008.<br>
 There are roughly 190’000 reviews mentioning at least one of our price related words. This is a dataset with which we will happily continue in milestone P3.
-Sixth question:
-Genetic engineering is a very emotional topic. We stumbled over a US-article discussing the issue of genetically modified crops used in the production of beer.
+         </p>
+           <p>
+e) Genetic engineering is a very emotional topic. We stumbled over a US-article discussing the issue of genetically modified crops used in the production of beer.
 We first scan the reviews for text reviews where a set of defined gentech related words. The words can be reviewed in the notebook.
 We found a total of 225 reviews mentioning words related to genetic engineering.
 In milestone P3 we will investigate whether these reviews correlate with good scores or bad ones to get an idea about the acceptance of biotechnology.
