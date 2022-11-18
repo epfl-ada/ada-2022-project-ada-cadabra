@@ -96,7 +96,7 @@ The sentiment analysis allows us to get an idea about the standpoints of the use
 
 #### Fourth idea: Grouping users by categories
 Finding categories to group the users. Experienced users vs Unexperienced: I first tried to separate experencied users. I made the assumptions that they would write longer comments. But there is no clear demarcations in the length of the comments. I pursued with another assumptions that experienced users would have written more reviews. I found out that most of the ratings gave no textual reviews. The distribution of reviews' amount per user follows a power law. <br>
-I then thougt of getting rid of hate comments. For that Iwould need to do sentiment analysis. I started simply by categorizing the comments into positive or negative sentiment. The sentiment analyser was found on huggingface.co (distilbert-base-uncased-distilled-squad). The goal is to tune the sentiment analyser for beer comments. So we could be more specific about the catgeories.
+I then thougt of getting rid of hate comments. For that I would need to do sentiment analysis. I started simply by categorizing the comments into positive or negative sentiment. The sentiment analyser was found on huggingface.co (distilbert-base-uncased-distilled-squad). The goal will be to tune the sentiment analyser for beer comments. So we could be more specific about the catgeories.
 
 ## Internal milestones up until project Milestone P3:
 
