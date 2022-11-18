@@ -98,7 +98,7 @@ The sentiment analysis allows us to get an idea about the standpoints of the use
 ## Internal milestones up until project Milestone P3:
 
 ### Milestone 2 
-•	Loïc: <br>
+•	Loïc: I investigated the seventh idea which I explore the reviews and ways to analyse them. I tried to separate experienced users by looking at the comments. I tried severals method to separate the comments: length of the comments, amount of comments per user, sentiment analysis.<br>
 •	Florian: <br>
 •	Kish:  Investigate the first idea. Try to find non linear relationships and extract reviews containing the sesnory cues. <br>
 •	Zeina: Investigate the second idea. Transform the review text files into readable dataframes. Create README. <br>
