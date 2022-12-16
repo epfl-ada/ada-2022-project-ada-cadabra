@@ -1,0 +1,6 @@
+
+.DS_Store
+data/BeerAdvocate/beers.csv
+*.csv
+*.txt
+*.gz
