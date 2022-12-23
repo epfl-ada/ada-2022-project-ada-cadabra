@@ -32,7 +32,7 @@ The effect of the financial crisis of 2008 on beer reviews. <br>
 Method: 
 
 <br>
-Note: We have changed some ideas from milestone P2 according to the different , we redirected some aspects of our project, namely the aditionnal datasets have changed due to ungranted access. Additionally, some steps of the data analysis pipeline have been reframed along the in-depth discovery and analysis of the build datasets.
+N.B: We have changed some directions of our projects from milestone P2 according to our findinfs: in the second idea we have fine-tuned our study into a cultural investigation rather than purely location based and omitted the idea of looking at the top 20 beers but rather considering all the beers and the different ratings. We have focused on one major event in the last part (the financial crisis).
 
 ## Internal milestones up until project Milestone P3:
 
@@ -50,9 +50,8 @@ Step 4: 16/12/22 Start the interactive map<br>
 Step 5: 23/12/22 Finish the P3
 
 ### Milestone 3
-
-Political: Flo <br>
-Location: Zeina <br>
-Text: Loïc <br>
-Sensory Values: Kish
+•	Loïc:    .<br>
+•	Florian: <br>
+•	Kish:     <br>
+•	Zeina:   Doing the second idea: stye vectors per country, clustering and displaying on a map. Updating the README. Putting together the milestone P3 notebook. br>
 
