@@ -30,7 +30,8 @@ Method: Creating style vectors for each country (weight proportional to liking o
 
 #### Third idea: Investigating political and cultural influence on beer reviews
 The effect of the financial crisis of 2008 on beer reviews. <br>
-Method: 
+Method: Count the monthly text reviews containing at least one of pre-defined price related words. Take the ratio of price relating reviews to total reviews. To visualize a global trend, the monthly ratios were interpolated. To see whether changes are statistically significant, month were taken together to semesters. For every semester, the change to the consequent semester was measured using a Chi-Square test.
+The significant parts were then compared to the time periods of crisis and to the national unemployment rate.
 
 <br>
 N.B: We have changed some directions of our projects from milestone P2 according to our findinfs: in the second idea we have fine-tuned our study into a cultural investigation rather than purely location based and omitted the idea of looking at the top 20 beers but rather considering all the beers and the different ratings. We have focused on one major event in the last part (the financial crisis).
@@ -51,8 +52,7 @@ Step 4: 16/12/22 Start the interactive map<br>
 Step 5: 23/12/22 Finish the P3
 
 ### Milestone 3
-•	Loïc:    <br>
-•	Florian: <br>
-•	Kish:     <br>
+•	Kish and Loïc: Doing the first idea : linear regression on ratings, textual analysis of comments   <br>
+•	Florian:  Investigating the Influence of economics on beer reviews; the website<br> 
 •	Zeina:   Doing the second idea: stye vectors per country, clustering and displaying on a map. Updating the README. Putting together the milestone P3 notebook. <br>
 
