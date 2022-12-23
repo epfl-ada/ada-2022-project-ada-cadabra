@@ -9,8 +9,9 @@ You can find our data story by following [this](https://flaubertepfl.github.io/)
 Beer is an interesting cultural product. When it comes to a beer, there is a lot to talk about and many senses involved in a beer tasting experience. Sensory Evaluation is a common method of evaluating beer; it is conducted by each beer taster and involves their sensory perception. There are four important main aspects of a beer that a person can evaluate: look, smell, taste and mouthfeel (palate). These affect one’s overall impression of a beer. The dataset consists of user reviews from beer reviewing websites that make use of sensory evaluation accompanied by a text review and some other data about the users, beers and breweries. The aim of this project is to uncover what are some extrinsic and intrisinsic factors that can affect one's rating of a beer. 
 
 ## Research question:
-- What makes us like a beer the way we do? Is it the stimulation of our 5 senses through the different sensory cues a beer provides (visual, olfactory, gustatory ...) that make us judge a beer the way we do?
-- Is it  related to our entourage and we tend to drink local beers from our area by habit/culture? 
+What makes us like a beer the way we do:
+- Is it the the stimulation of our 5 senses through the different sensory cues a beer provides (visual, olfactory, gustatory ...) that make us judge a beer the way we do?
+- Do our location, habits, culture affect how we rate a beer? 
 - Can major events your region goes through affect the way you review a beer?
 Throughout this project, we’ll try to bring as many answers as possible to these questions in a spatial-temporal fashion: we have data that spans almost two decades and covers many American states and countries. 
 
@@ -50,8 +51,8 @@ Step 4: 16/12/22 Start the interactive map<br>
 Step 5: 23/12/22 Finish the P3
 
 ### Milestone 3
-•	Loïc:    .<br>
+•	Loïc:    <br>
 •	Florian: <br>
 •	Kish:     <br>
-•	Zeina:   Doing the second idea: stye vectors per country, clustering and displaying on a map. Updating the README. Putting together the milestone P3 notebook. br>
+•	Zeina:   Doing the second idea: stye vectors per country, clustering and displaying on a map. Updating the README. Putting together the milestone P3 notebook. <br>
 
